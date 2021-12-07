@@ -1,6 +1,11 @@
 terraform {
   required_version = "~> 1.0"
-
+  backend "remote" {
+		organization = "EdV"
+		workspaces {
+		          	name = "consul-deployment"
+		          }
+				  }
   required_providers {
     kubernetes = {
       source  = "hashicorp/kubernetes"

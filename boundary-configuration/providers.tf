@@ -1,5 +1,11 @@
 terraform {
   required_version = "~> 1.0"
+  backend "remote" {
+		organization = "EdV"
+		workspaces {
+		          	name = "boundary-configuration"
+		          }
+				  }
   required_providers {
     aws = {
       source  = "hashicorp/aws"

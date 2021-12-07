@@ -9,6 +9,36 @@ id_rsa
 kubernetes/terraform.auto.tfvars
 vault/terraform.auto.tfvars
 database-service/terraform.auto.tfvars
+terraform.tfstate
+infrastructure/.terraform/modules/modules.json
+infrastructure/.terraform/providers/registry.terraform.io/hashicorp/aws/3.59.0/linux_amd64/terraform-provider-aws_v3.59.0_x5
+infrastructure/.terraform/providers/registry.terraform.io/hashicorp/cloudinit/2.2.0/linux_amd64/terraform-provider-cloudinit_v2.2.0_x5
+infrastructure/.terraform/providers/registry.terraform.io/hashicorp/hcp/0.16.0/linux_amd64/terraform-provider-hcp_v0.16.0_x5
+infrastructure/.terraform/providers/registry.terraform.io/hashicorp/kubernetes/2.5.0/linux_amd64/terraform-provider-kubernetes_v2.5.0_x5
+infrastructure/.terraform/providers/registry.terraform.io/hashicorp/local/2.1.0/linux_amd64/terraform-provider-local_v2.1.0_x5
+infrastructure/.terraform/providers/registry.terraform.io/hashicorp/random/3.1.0/linux_amd64/terraform-provider-random_v3.1.0_x5
+infrastructure/.terraform/providers/registry.terraform.io/hashicorp/tls/3.1.0/linux_amd64/terraform-provider-tls_v3.1.0_x5
+infrastructure/.terraform/providers/registry.terraform.io/terraform-aws-modules/http/2.4.1/linux_amd64/CHANGELOG.md
+infrastructure/.terraform/providers/registry.terraform.io/terraform-aws-modules/http/2.4.1/linux_amd64/LICENSE
+infrastructure/.terraform/providers/registry.terraform.io/terraform-aws-modules/http/2.4.1/linux_amd64/README.md
+infrastructure/.terraform/providers/registry.terraform.io/terraform-aws-modules/http/2.4.1/linux_amd64/terraform-provider-http_v2.4.1
+infrastructure/.terraform.lock.hcl
+boundary-configuration/.terraform.lock.hcl
+boundary-configuration/.terraform/providers/registry.terraform.io/hashicorp/aws/3.59.0/linux_amd64/terraform-provider-aws_v3.59.0_x5
+boundary-configuration/.terraform/providers/registry.terraform.io/hashicorp/boundary/1.0.5/linux_amd64/terraform-provider-boundary_v1.0.5_x5
+boundary-configuration/.terraform/providers/registry.terraform.io/hashicorp/random/3.1.0/linux_amd64/terraform-provider-random_v3.1.0_x5
+consul-deployment/.terraform.lock.hcl
+consul-deployment/.terraform/providers/registry.terraform.io/hashicorp/aws/3.59.0/linux_amd64/terraform-provider-aws_v3.59.0_x5
+consul-deployment/.terraform/providers/registry.terraform.io/hashicorp/consul/2.13.0/linux_amd64/terraform-provider-consul_v2.13.0_x4
+consul-deployment/.terraform/providers/registry.terraform.io/hashicorp/hcp/0.16.0/linux_amd64/terraform-provider-hcp_v0.16.0_x5
+consul-deployment/.terraform/providers/registry.terraform.io/hashicorp/helm/2.3.0/linux_amd64/terraform-provider-helm_v2.3.0_x5
+consul-deployment/.terraform/providers/registry.terraform.io/hashicorp/kubernetes/2.5.0/linux_amd64/terraform-provider-kubernetes_v2.5.0_x5
+vault-deployment/.terraform.lock.hcl
+vault-deployment/.terraform/providers/registry.terraform.io/hashicorp/aws/3.59.0/linux_amd64/terraform-provider-aws_v3.59.0_x5
+vault-deployment/.terraform/providers/registry.terraform.io/hashicorp/hcp/0.16.0/linux_amd64/terraform-provider-hcp_v0.16.0_x5
+vault-deployment/.terraform/providers/registry.terraform.io/hashicorp/helm/2.3.0/linux_amd64/terraform-provider-helm_v2.3.0_x5
+vault-deployment/.terraform/providers/registry.terraform.io/hashicorp/kubernetes/2.5.0/linux_amd64/terraform-provider-kubernetes_v2.5.0_x5
+vault-deployment/.terraform/providers/registry.terraform.io/hashicorp/vault/2.24.0/linux_amd64/terraform-provider-vault_v2.24.0_x4
 
 # Local .terraform directories
 **/.terraform/*

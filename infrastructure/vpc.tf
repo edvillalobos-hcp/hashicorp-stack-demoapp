@@ -12,11 +12,11 @@ module "vpc" {
   version = "3.2.0"
 
   name             = var.name
-  cidr             = "10.0.0.0/16"
+  cidr             = "172.31.0.0/16"
   azs              = data.aws_availability_zones.available.names
-  private_subnets  = ["10.0.1.0/24", "10.0.2.0/24", "10.0.3.0/24"]
-  public_subnets   = ["10.0.4.0/24", "10.0.5.0/24", "10.0.6.0/24"]
-  database_subnets = ["10.0.7.0/24", "10.0.8.0/24", "10.0.9.0/24"]
+  private_subnets  = ["172.31.1.0/24", "172.31.2.0/24", "172.31.3.0/24"]
+  public_subnets   = ["172.31.4.0/24", "172.31.5.0/24", "172.31.6.0/24"]
+  database_subnets = ["172.31.7.0/24", "172.31.8.0/24", "172.31.9.0/24"]
 
   manage_default_route_table = true
   default_route_table_tags   = { DefaultRouteTable = true }

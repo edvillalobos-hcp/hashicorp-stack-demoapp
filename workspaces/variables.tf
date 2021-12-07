@@ -6,5 +6,7 @@ variable "hostname" {
     sensitive = true
 }
 variable "token"{}
+variable "oauthtoken"{} 
 
-variable "oauthtoken"{}
+variable "database_password" {}
+variable "client_cidr_block" {}

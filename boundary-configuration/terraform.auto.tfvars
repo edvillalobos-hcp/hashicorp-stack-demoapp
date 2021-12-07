@@ -4,7 +4,8 @@ operations_team = [
 ]
 
 products_team = [
-  "appdev"
+  "edriosv",
+  "johnyB"
 ]
 
 leadership_team = [

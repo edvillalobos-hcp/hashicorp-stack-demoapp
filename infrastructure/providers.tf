@@ -1,6 +1,11 @@
 terraform {
   required_version = "~> 1.0"
-
+  backend "remote" {
+		organization = "EdV"
+		workspaces {
+		          	name = "infrastructure"
+		          }
+				  }
   required_providers {
     aws = {
       source  = "hashicorp/aws"

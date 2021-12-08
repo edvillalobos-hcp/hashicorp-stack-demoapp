@@ -1,11 +1,11 @@
-data "aws_availability_zones" "available" {
-  state = "available"
+# data "aws_availability_zones" "available" {
+#   state = "available"
 
-  filter {
-    name   = "opt-in-status"
-    values = ["opt-in-not-required"]
-  }
-}
+#   filter {
+#     name   = "opt-in-status"
+#     values = ["opt-in-not-required"]
+#   }
+# }
 
 module "vpc" {
   source  = "terraform-aws-modules/vpc/aws"
@@ -13,7 +13,8 @@ module "vpc" {
 
   name             = var.name
   cidr             = "172.31.0.0/16"
-  azs              = data.aws_availability_zones.available.names
+  # azs              = data.aws_availability_zones.available.names
+  azs = [ var.region ]
   private_subnets  = ["172.31.1.0/24", "172.31.2.0/24", "172.31.3.0/24"]
   public_subnets   = ["172.31.4.0/24", "172.31.5.0/24", "172.31.6.0/24"]
   database_subnets = ["172.31.7.0/24", "172.31.8.0/24", "172.31.9.0/24"]

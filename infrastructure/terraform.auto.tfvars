@@ -1,5 +1,5 @@
-region                     = "us-west-1"
-hcp_region                 = "us-west-1"
+region                     = "us-east-1"
+hcp_region                 = "us-east-1"
 name                       = "zero"
 hcp_consul_public_endpoint = true
 hcp_vault_public_endpoint  = true
